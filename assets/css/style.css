@@ -83,7 +83,9 @@ header{
 .button:hover{
     background-color: #D29766;
 }
-
+.button-dark{
+    background-color: #000;
+}
 
 /* Area do banner main*/
 .banner{
@@ -479,5 +481,72 @@ header{
 .section-review .pointer.active{
     background-color: #B28756;
 }
-
 /*CSS REVIEW AREA FIM*/
+
+
+/*CSS PATROCINATORS AREA INICIO*/
+.section-patrocinators{
+    border-top: solid 1px #EEE;
+    border-bottom: solid 1px #EEE;
+}
+.section-patrocinators--area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-patrocinator{
+    flex: 1;
+    text-align: center;
+
+}
+/*CSS PATROCINATORS AREA FIM*/
+
+
+/*CSS PATROCINATORS AREA INICIO*/
+.section-patrocinators{
+    border-top: solid 1px #EEE;
+    border-bottom: solid 1px #EEE;
+}
+.section-patrocinators--area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-patrocinator{
+    flex: 1;
+    text-align: center;
+
+}
+/*CSS PATROCINATORS AREA FIM*/
+
+/*CSS PRICE AREA INICIO*/
+.section-price{
+    display: inline-block;
+}
+.section-price--item{
+    flex: 1;
+    background-color: #FFF;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-price--item-name {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+.section-price--item-value{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.section-price--item-period {
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.section-price--item-point{
+    font-size: 12px;
+}
+/*CSS PRICE AREA FIM*/
