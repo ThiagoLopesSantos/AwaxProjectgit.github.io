@@ -520,17 +520,24 @@ header{
 /*CSS PATROCINATORS AREA FIM*/
 
 /*CSS PRICE AREA INICIO*/
+.section-price--area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .section-price{
-    display: inline-block;
+    flex: 1;
 }
 .section-price--item{
-    flex: 1;
+  
     background-color: #FFF;
     margin: 20px;
     padding: 20px;
-    text-align: center;
+    text-align: center;    
 }
-
+.section-price--item:last-child{
+    margin-right: 0;
+}
 .section-price--item-name {
     text-transform: uppercase;
     font-size: 13px;
