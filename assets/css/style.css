@@ -929,18 +929,18 @@ footer{
     .section-map--info-item:last-child{
         margin-bottom: 0;
     }
-/*FOOTER*/
-.footer-area {
-    flex-wrap: wrap;
-}
-.footer-item {
-    flex: 1;
-    margin: 12px;
-}
-.footer-item.area1{
-    display: flex;
-    justify-content: center;
-}
+    /*FOOTER*/
+    .footer-area {
+        flex-wrap: wrap;
+    }
+    .footer-item {
+        flex: 1;
+        margin: 12px;
+    }
+    .footer-item.area1{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /*CONFIGURAÇÃO PARA CELULAR*/
@@ -1040,11 +1040,14 @@ footer{
     }
 
     /*PATROCINATORS*/
+    .section-patrocinators--area {
+        flex-wrap: wrap;
+    }
     .section-patrocinators {
         padding: 20px;
     }
     .section-patrocinator img{
-        width: 50px;
+        margin: 20px;
     }
 
     /*PRICE*/
