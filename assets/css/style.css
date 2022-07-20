@@ -678,6 +678,9 @@ header{
 .section-share--legend img {
     margin-right:10px;
 }
+.section-mobile--share-item{
+    display: flex;
+}
 .section-share--item {
     font-size:12px;
     margin-right:20px;
@@ -713,6 +716,7 @@ header{
 .section-share--icon.pinterest {
     background-color:#b71c29;
 }
+
 /*CSS SHARE AREA FIM*/
 
 /*CSS CONTACT AREA*/
@@ -925,7 +929,18 @@ footer{
     .section-map--info-item:last-child{
         margin-bottom: 0;
     }
-
+/*FOOTER*/
+.footer-area {
+    flex-wrap: wrap;
+}
+.footer-item {
+    flex: 1;
+    margin: 12px;
+}
+.footer-item.area1{
+    display: flex;
+    justify-content: center;
+}
 }
 
 /*CONFIGURAÇÃO PARA CELULAR*/
@@ -1058,7 +1073,21 @@ footer{
     }
 
     /*SHARE*/
-   
+    .section-share--area {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .section-mobile--share-item {
+        /* flex-wrap: wrap; */
+        margin-top: 18px;
+        margin-left: 20px;
+    }
+
+    /*CONTACT*/
+    .section-contact {
+        max-width: 90vw;
+    }
+
     /*MAP*/
     .section-map{
         padding:0;
@@ -1075,6 +1104,19 @@ footer{
     }
     .section-map--info-item:last-child{
         margin-bottom: 0;
+    }
+
+    /*FOOTER*/
+    .footer-area {
+        flex-wrap: wrap;
+    }
+    .footer-item {
+        flex: 1;
+        margin: 12px;
+    }
+    .footer-item.area1{
+        display: flex;
+        justify-content: center;
     }
 
 }
