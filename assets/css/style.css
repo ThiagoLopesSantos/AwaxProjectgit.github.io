@@ -1040,11 +1040,15 @@ footer{
     }
 
     /*PATROCINATORS*/
+    .section-patrocinators--area{
+        flex-wrap: wrap;
+    }
     .section-patrocinators {
         padding: 20px;
     }
     .section-patrocinator img{
-        width: 50px;
+        /*width: 50px;*/
+        margin: 10px;
     }
 
     /*PRICE*/
